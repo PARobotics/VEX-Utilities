@@ -1,4 +1,4 @@
-#pragma config(Sensorm dgtl1, limitSwitch, sensorTouch)
+#pragma config(Sensor dgtl1, limitSwitch, sensorTouch)
 #pragma config(Motor, port1, M_1, tmotorVex393_HBridge, openLoop)
 #pragma config(Motor, port2, M_2, tmotorVex393_MC29, openLoop)
 #pragma config(Motor, port3, M_3, tmotorVex393_MC29, openLoop)
@@ -22,7 +22,7 @@
   Author: Jeffrey Shen
   Utility to easily test each vex port and its motors.
   ----------------------------------------------------
-  Test all motors by plugging a limit switch into digital one and pressing it
+  Test all motors by plugging a limit switch into digital 1 and pressing it
   Test individual motors by connecting a joystick and pressing the following buttons:
 
   7L: Port 1
